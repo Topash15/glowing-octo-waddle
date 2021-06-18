@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/*main title styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +26,7 @@ body {
     color: #d9dcd6;
 }
 
+/*nav bar styling*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,11 +44,13 @@ body {
     margin-left: 25px;
 }
 
+/*navigation links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*general */
 p {
     font-size: 16px;
 }
@@ -59,6 +64,7 @@ p {
     background-position: center;
 }
 
+/*general attribute tags*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,40 +75,14 @@ p {
     margin-left: 25px;
 }
 
+/*main content styling*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.content {
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,6 +100,36 @@ p {
     font-size: 36px;
 }
 
+
+/*aside styling*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*footer styling*/
 .footer {
     padding: 30px;
     clear: both;
