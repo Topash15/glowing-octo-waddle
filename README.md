@@ -28,6 +28,3 @@ Include areas you believe need improvement / could be improved. Also add TODOs f
 
 Room for improvement:
 - Having a contact us section with a form to easily fill out
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
